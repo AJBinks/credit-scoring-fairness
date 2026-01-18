@@ -19,6 +19,17 @@ Credit scoring models may unintentionally treat certain groups unfairly due to p
 
 * **Demographic Parity Gap (DP Gap):** difference in prediction rates across groups
 * **Equal Opportunity Difference (EOD Gap):** difference in true positive rates across groups
+* ## Results Summary (Example)
+
+* Baseline model trained using Logistic Regression
+* After applying **Reweighing**, fairness gaps improved:
+
+  * **Demographic Parity Gap** decreased
+  * **Equal Opportunity Difference** decreased
+* Model accuracy remained stable after mitigation
+
+*Note: exact results depend on dataset split and random seed.*
+
 
 Lower is better (closer to 0 = more fair).
 
